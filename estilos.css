@@ -1,0 +1,36 @@
+:root {
+    --bs-orange: #fd7e14;
+    --bs-white: #fff;
+}
+
+* {
+    box-sixing: border-box;
+}
+
+body {
+    background: rgb(85, 128, 184);
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 100px;
+}
+
+nav {
+    background: skyblue;
+}
+
+.nav-brand a {
+    color: #ffffff;
+}
+
+.btn {
+    color: var(--bs-white);
+    background: rgb(85, 128, 184);
+}
+
+.dropdown-item {
+    color: var(--bs-white);
+    background: rgb(85, 128, 184);
+}
